@@ -1,10 +1,8 @@
 package co.com.proyectobase.screenplay.stepdefinitions;
 
-import org.hamcrest.Matchers;
+
 import org.openqa.selenium.WebDriver;
-
 import co.com.proyectobase.screenplay.util.ExcelReader;
-
 import co.com.proyectobase.screenplay.tasks.Abrir;
 import co.com.proyectobase.screenplay.questions.ElMensaje;
 import co.com.proyectobase.screenplay.tasks.Registrar;
@@ -13,7 +11,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;

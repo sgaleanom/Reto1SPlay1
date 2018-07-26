@@ -1,11 +1,8 @@
 package co.com.proyectobase.screenplay.tasks;
 
-import org.openqa.selenium.remote.server.handler.SendKeys;
-
 import co.com.proyectobase.screenplay.ui.WebDemoHomePage;
 import co.com.proyectobase.screenplay.util.ExcelReader;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;

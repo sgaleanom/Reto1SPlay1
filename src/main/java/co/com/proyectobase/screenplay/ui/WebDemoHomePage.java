@@ -3,7 +3,6 @@ package co.com.proyectobase.screenplay.ui;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
-import net.serenitybdd.screenplay.targets.TargetBuilder;
 import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("http://demo.automationtesting.in/Register.html")

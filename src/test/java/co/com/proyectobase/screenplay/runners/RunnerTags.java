@@ -8,10 +8,11 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features="src/test/resources/features/WebDemo.feature",
-		tags= "@CasoExitoso",
+		features="src/test/resources/features/OrangeHR.feature",
+		tags= "@RegistroEmpleado",
 		glue="co.com.proyectobase.screenplay.stepdefinitions",
 		snippets=SnippetType.CAMELCASE		)
+
 public class RunnerTags {
 
 }
